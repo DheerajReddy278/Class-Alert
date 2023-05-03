@@ -1,0 +1,12 @@
+cd Desktop
+ls
+zip --password 11111111 hi test.txt
+zip2john hi.zip>hello.txt
+john hello.txt
+
+
+
+sudo apt-get update 
+sudo apt-get install suricata
+sudo suricata-update update-sources
+sudo suricata -i eth0 -v
