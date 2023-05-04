@@ -10,3 +10,25 @@ sudo apt-get update
 sudo apt-get install suricata
 sudo suricata-update update-sources
 sudo suricata -i eth0 -v
+
+
+3/5/2023 -- 20:52:03 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+3/5/2023 -- 20:52:03 - <Info> - CPUs/cores online: 4
+3/5/2023 -- 20:52:04 - <Info> - Found an MTU of 1500 for 'eth0'
+3/5/2023 -- 20:52:04 - <Info> - Found an MTU of 1500 for 'eth0'
+3/5/2023 -- 20:52:04 - <Info> - fast output device (regular) initialized: fast.log
+3/5/2023 -- 20:52:04 - <Info> - eve-log output device (regular) initialized: eve.json
+3/5/2023 -- 20:52:04 - <Info> - stats output device (regular) initialized: stats.log
+3/5/2023 -- 20:52:04 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+3/5/2023 -- 20:52:04 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+3/5/2023 -- 20:52:04 - <Info> - Threshold config parsed: 0 rule(s) found
+3/5/2023 -- 20:52:04 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+3/5/2023 -- 20:52:04 - <Info> - Going to use 4 thread(s)
+3/5/2023 -- 20:52:04 - <Info> - Using unix socket file '/var/run/suricata-command.socket'
+3/5/2023 -- 20:52:04 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+3/5/2023 -- 20:52:04 - <Info> - All AFP capture threads are running.
+^C3/5/2023 -- 20:52:13 - <Notice> - Signal Received.  Stopping engine.
+3/5/2023 -- 20:52:13 - <Info> - time elapsed 9.559s
+3/5/2023 -- 20:52:15 - <Info> - Alerts: 0
+3/5/2023 -- 20:52:15 - <Info> - cleaning up signature grouping structure... complete
+3/5/2023 -- 20:52:15 - <Notice> - Stats for 'eth0':  pkts: 4, drop: 0 (0.00%), invalid chksum: 0
