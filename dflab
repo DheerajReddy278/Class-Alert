@@ -11,6 +11,11 @@ sudo apt-get install suricata
 sudo suricata-update update-sources
 sudo suricata -i eth0 -v
 
+ls/etc/suricata/rules
+
+sudo tail -f/var/log/suricata/fast.log   #analysis
+sudo cat/var/log/suricata/eve.json
+
 
 3/5/2023 -- 20:52:03 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
 3/5/2023 -- 20:52:03 - <Info> - CPUs/cores online: 4
